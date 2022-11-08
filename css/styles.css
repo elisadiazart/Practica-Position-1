@@ -1,0 +1,177 @@
+/* 
+colors: 
+  body background: #0c122c
+  card background: #1d2c67
+*/
+body {
+  text-align: center;
+  background-color: #111;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+.background {
+  display: inline-block;
+  background-color: #0c122c;
+  width: 847px;
+  height: 465px;
+  text-align: center;
+  position: relative;
+}
+
+.ondas {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.box1 {
+  background-color: #1d2c67;
+  position: absolute;
+  z-index: 1;
+  left: 155px;
+  bottom: 190px;
+  width: 220px;
+  height: 135px;
+  border-radius: 10px 80px 10px 10px;
+}
+
+.box2 {
+  background-color: #1d2c67;
+  position: absolute;
+  z-index: 1;
+  right: 125px;
+  bottom: 190px;
+  width: 320px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.box3 {
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  width: 120px;
+  height: 50px;
+  right: 80px;
+  top: 150px;
+  border-radius: 10px;
+}
+
+.logo {
+  position: absolute;
+  z-index: 10;
+  width: 100px;
+  left: 180px;
+  top: 167px;
+}
+
+.square-document {
+  background-color: #0c122c;
+  position: absolute;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  left: 180px;
+  top: 223px;
+  border-radius: 6px;
+}
+
+.document {
+  width: 14px;
+  position: absolute;
+  top: 6.2px;
+  left: 8px;
+}
+
+.square-folder {
+  background-color: #0c122c;
+  position: absolute;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  left: 219px;
+  top: 223px;
+  border-radius: 6px;
+}
+
+.folder {
+  width: 16px;
+  position: absolute;
+  top: 8.5px;
+  left: 7.2px;
+}
+
+.square-upload {
+  background-color: #0c122c;
+  position: absolute;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  left: 258px;
+  top: 223px;
+  border-radius: 6px;
+}
+
+.upload {
+  width: 16px;
+  position: absolute;
+  top: 9px;
+  left: 7.2px;
+}
+
+.phrase {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  left: 25px;
+  top: 32px;
+}
+
+.bar,
+.bar-color {
+  position: absolute;
+  background-color: #0c122c;
+  z-index: 100;
+  height: 12px;
+  width: 245px;
+  top: 53px;
+  left: 25px;
+  border-radius: 10px;
+}
+
+.bar-color {
+  position: absolute;
+  background-color: palevioletred;
+  z-index: 110;
+  width: 175px;
+}
+
+.phrase2,
+.phrase3 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  left: 25px;
+  top: 70px;
+}
+
+.phrase3 {
+  left: 250px;
+}
+
+.number {
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+
+.number2 {
+  font-size: 12px;
+  position: absolute;
+  right: 14px;
+  top: 19px;
+}
